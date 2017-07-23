@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<behavior name="Hello World Demo">
+
+	<executable package_path="behavior_hello_world_demo.hello_world_demo_sm" class="HelloWorldDemoSM" />
+	<tagstring>Hello World</tagstring>
+	<author>Dennis Chen</author>
+	<date>Sun Jul 23 2017</date>
+	<description>
+		Behavior created during in the FlexBE tutorial.
+	</description>
+
+
+	<!-- Contained Behaviors -->
+
+	<!-- Available Parameters -->
+	<params>
+
+		<param type="numeric" name="waiting_time" default="1" label="waiting_time" hint="Define the time to wait at start">
+			<min value="1" />
+			<max value="5" />
+		</param>
+
+	</params>
+
+
+</behavior>
